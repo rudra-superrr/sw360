@@ -50,3 +50,14 @@ data
 config
 .tmp
 .env
+
+# Gradle
+.gradle
+
+# Ignore build and bin output
+build
+bin
+
+# Avoid ignoring Gradle wrapper jar and properties
+!gradle-wrapper.jar
+!gradle-wrapper.properties
